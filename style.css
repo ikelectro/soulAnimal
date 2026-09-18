@@ -1,0 +1,73 @@
+body{
+  background-color: #FF4885;
+  
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 6rem;
+  font-family: "Lilita One", sans-serif;
+  color: #10288C;
+}
+h2{
+  
+  color: #030303;
+}
+
+.btn{
+  background-color: #10288C;
+  padding: 1%;
+  border-style: none;
+  border-radius: 15px;
+  color: white;
+  transition: 0.18s;
+  margin-bottom: 15px;
+}
+
+.btn:hover{
+  background-color:white;
+  color: #10288C;
+}
+
+.btn::after{
+  border-width: 1px;
+  border-style: solid;
+}
+.animal-image{
+  width: 25%;
+  border-radius: 10%;
+}
+.disclaimer{
+  margin-top: 70px;
+  height: 30px;
+  background-color: #10288C;
+ 
+}
+
+.disclaimer > p{
+  padding-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(120, 98, 242); 
+}
+@media(max-width:600px){
+  h1{
+  font-size: 3rem;
+  text-align: center;
+  }
+
+  .animal-image{
+  width: 60%;
+  border-radius: 10%;
+}
+h2{
+  font-size: medium;
+}
+}
